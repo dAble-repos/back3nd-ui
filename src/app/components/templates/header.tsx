@@ -20,25 +20,11 @@ const Header = () => {
         </div>
 
         {/* Navigation links */}
-        <nav className="hidden lg:flex items-center space-between">
+        <nav className="hidden lg:flex items-center space-x-8 text-gray-500">
           <Link href="/products">Products</Link>
           <Link href="/solutions">Solutions</Link>
           <Link href="/pricing">Pricing</Link>
-          <Link href="/more">
-            More
-            <svg
-              className="inline ml-2 w-4 h-4"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fillRule="evenodd"
-                d="M5.293 7.293a1 1 0 011.414 0L10 11.414l3.293-3.293a1 1 0 011.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                clipRule="evenodd"
-              />
-            </svg>
-          </Link>
+          <Link href="/more">More</Link>
         </nav>
 
         {/* Mobile menu button */}
