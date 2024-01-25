@@ -4,7 +4,7 @@ import logoImg from "../../../../public/images/Back3nd_darkandcolour.png";
 
 const Header = () => {
   return (
-    <header className="bg-white shadow py-2 w-full h-12">
+    <header className="bg-white shadow py-2 w-full h-16">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo and company name */}
         <div className="flex items-center">
