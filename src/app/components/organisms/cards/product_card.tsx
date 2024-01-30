@@ -1,8 +1,4 @@
 import * as shared from "../../../../../shared";
-import img1 from "../../../../../public/images/Back3nd_1.png";
-import { TbBrandAuth0 } from "react-icons/tb";
-import { BsPlugin } from "react-icons/bs";
-import { CgPerformance } from "react-icons/cg";
 import React from "react";
 
 const ProductCard = (props: any) => {

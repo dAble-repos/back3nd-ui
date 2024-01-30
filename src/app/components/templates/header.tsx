@@ -25,6 +25,12 @@ const Header = () => {
           <Link href="/solutions">Solutions</Link>
           <Link href="/pricing">Pricing</Link>
           <Link href="/more">More</Link>
+          <Link
+            href="/dashboard"
+            className="bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded"
+          >
+            Button
+          </Link>
         </nav>
 
         {/* Mobile menu button */}
