@@ -29,7 +29,7 @@ const Header = () => {
             href="/dashboard"
             className="bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded"
           >
-            Button
+            Dashboard
           </Link>
         </nav>
 

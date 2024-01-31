@@ -1,8 +1,9 @@
 // Dashboard
 // Imports
 import LeftNavBar from "../components/templates/left_nav_bar";
-import { Link } from "../../../shared";
+import { Link, Image } from "../../../shared";
 import { MediumLinkDark } from "../components/atoms/links/common_links";
+import dashboardImg from "../../../public/images/dashboard_hero.png";
 
 export default function Page() {
   return (
@@ -30,6 +31,13 @@ export default function Page() {
             <MediumLinkDark link="/" title="Bitcoin" />
           </div>
         </div>
+        <Image
+          src={dashboardImg}
+          alt="Dashboard hero image"
+          width={500}
+          height={500}
+          className="mx-auto my-8 w-auto max-w-full h-auto"
+        />
       </div>
     </div>
   );
