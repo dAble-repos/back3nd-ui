@@ -46,6 +46,15 @@ const LeftNavBar = () => {
       </div>
       {/* Project Categories */}
       <ProjectCatgories />
+
+      <hr />
+      <div className="flex items-center justify-between py-4">
+        <p>Freemium</p>
+        <button className="text-xs p-2 hover:bg-primary-light rounded-lg hover:text-white">
+          Upgrade
+        </button>
+      </div>
+      <hr />
     </div>
   );
 };
